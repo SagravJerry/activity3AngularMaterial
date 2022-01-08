@@ -1,0 +1,114 @@
+<section fxLayout="column" fxFlexAlign="stretch"> 
+    <div fxFlexAlign="center"> 
+        <p>Welcome to My Portfolio</p> 
+    </div>
+
+    <mat-tab-group (selectedTabChange)="executeSelectedChange($event)">
+        <mat-tab label="Gallery Page"> 
+          <mat-card class="gallery">
+  <div class ="gallery-container">          
+  <div class = "cardrow">        
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>Jerr's Mate</mat-card-title>
+    <mat-card-subtitle>How Sweet naman</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="../../assets/pict1.jpg" alt="Photo of a jerry" height = "400px">
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+</div>  
+<div class = "cardrow">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>Jerry Vargas</mat-card-title>
+    <mat-card-subtitle>Classmates</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="../assets/pict2.jpg" alt="Photo of a Jerry Vargas" height="400px">
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </div>
+  <div class = "cardrow">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>Jerry Yan</mat-card-title>
+    <mat-card-subtitle>Black and White</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="../../pict3.jpg" alt="Photo of a Jerry Vargas" height="400px">
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+   </div> 
+  <div class = "cardrow"> 
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>Jerry Bot</mat-card-title>
+    <mat-card-subtitle>Skyline</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="../assets/pict4.jpg" alt="Photo of a Jerry Vargas"height="400px">
+  
+  
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  
+  </div>
+  <div class = "cardrow">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>JERRY vargas</mat-card-title>
+    <mat-card-subtitle>BSIT 3C</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="../assets/pict5.jpg" alt="Photo of a Jerry Vargas"height="400px">
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+  </div>
+  </div>
+</mat-card>
+         
+        </mat-tab>
+        <mat-tab label="Personal File">
+          <mat-card class="contents">
+            <mat-card-header class = "personal">
+            <mat-card-title >Jerry Misagal Vargas</mat-card-title>
+        <mat-card-subtitle> 
+            BSIT 3C
+        </mat-card-subtitle>
+      </mat-card-header>
+              <mat-card-content>
+                <h3>About Me</h3><br>
+                
+                <p>
+                  I am a regular student by chance, Why do i say so?
+                  Because my top priority is to have daily earnings 
+                  in order to feed my parents and siblings
+                </p>
+                <h3>Likes And Dislikes</h3><br>
+                <p>
+                  I like people who are willing to share their knowledge
+                  to help everyone utilize their talents and become an asset in every community
+
+                  One of my dislikes is dishonesty.
+
+
+                </p>
+                <h3>Hobbies</h3><br>
+                <p>
+                  Playing mobile games is my hobby but 
+                  most of the time i have no time for hanging out.
+                </p>
+          
+            </mat-card-content>
+             
+            
+          </mat-card>
+          </mat-tab>
+        <mat-tab label="Contact Page">
+          <div mat-card-avatar class="contactcss"></div>
+          <mat-card-title id = " contact"><h6>Jerry Vargas</h6></mat-card-title>
+          <mat-card-subtitle>Misagal BSIT 3C<br><br>
+           <button class="icon"> <mat-icon>facebook</mat-icon></button>JerryVargas@yahoo.com<br>
+           <button class="icon"> <mat-icon>mail</mat-icon></button>Garyento@gmail.com<br>
+            <mat-icon>call</mat-icon> +63966*****32
+            
+          </mat-card-subtitle>
+          </mat-tab>
+      </mat-tab-group>
+</section>
